@@ -21,7 +21,7 @@ import * as Lint from "../index";
 import { isFunctionScopeBoundary } from "../utils";
 
 export class Rule extends Lint.Rules.AbstractRule {
-    public static DEFAULT_THRESHOLD = 5;
+    public static DEFAULT_THRESHOLD = 25;
     public static MINIMUM_THRESHOLD = 2;
 
     /* tslint:disable:object-literal-sort-keys */
